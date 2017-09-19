@@ -1,6 +1,8 @@
-getCallMe(){
-var timesCalled = 0;
-return timesCalled;
+var callMe = function(){
+	var timesCalled = 1;
+	callMe = function(){
+		timesCalled +=1
+	}
+	return timesCalled;
 }
-
-var callMe = getCallMe()
+callMe();
