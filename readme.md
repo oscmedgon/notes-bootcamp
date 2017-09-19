@@ -32,4 +32,9 @@
 - Los bucles for se pueden anidar
 
 # FUNCIONES
+## Scope
 
+- Cada función tiene acceso a sus variables locales, y a todas las variables heredadas de sus padres.
+- El scouting se crea en el momento de definir la función no a la hora de ejecutarla.
+# CLOSURE
+- Este fenómeno ocure cuando returnamos una función 
