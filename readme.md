@@ -1,7 +1,7 @@
 # JavaScript notes
 ## Caracteres especiales de espaciado
-- salto de línea(/n)
-- tabulación (/t)
+- salto de línea(\n)
+- tabulación (\t)
 # Introducción a JS.
 - Javascript se ejecuta de forma diferente en distintos navegadores ya que usan distinto motores.  
 - Es un Lenguaje no tipado.
@@ -30,3 +30,6 @@
 ## BUCLE FOR
 - Sintaxis for ( inicialización ; comprobación ; incremento/decrimento)
 - Los bucles for se pueden anidar
+
+# FUNCIONES
+
