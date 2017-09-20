@@ -13,3 +13,16 @@ function isNumber(number){
 	return true
 }
 isNumber("3")
+
+
+
+var pepe = {
+  name : "pepe",
+  hijos: {
+    name :"pepito",
+    prop : function(){
+      return this.name
+    }
+  }
+}
+pepe.hijos.prop()

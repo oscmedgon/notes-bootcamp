@@ -24,7 +24,8 @@
     - Aritmeticos ( + - * / % ++ --) (operadores combinados(+= etc))
     - Lógicos(negación(!) and (&&) or (||))
     - Comparación (igualdad(==) igualdad y tipo(===) no igual(!=) no igual y tipo(!==) mayor (>) menor (<) )
-    -Operador ternario(var result = (var === 1) ? "a is one" : "a is NOT one")(Es necesario que se pasen 2 valores)
+    -Operador ternario(var result = (var === 1) ? "a is one" : "a is NOT one")(es necesario que se pasen 2 valores)
+# 
 
 # BUCLES
 ## BUCLE FOR
@@ -36,5 +37,32 @@
 
 - Cada función tiene acceso a sus variables locales, y a todas las variables heredadas de sus padres.
 - El scouting se crea en el momento de definir la función no a la hora de ejecutarla.
-# CLOSURE
-- Este fenómeno ocure cuando returnamos una función 
+## Variables privadas poer defecto en caso de ausencia de arguments
+- Esta variable se declara a 10 en caso de que no esté declarada, en caso de que esté declarada, se queda con su actual valor.
+ ```js
+    var a = a || 10
+ ```
+# Array
+- Eliminamos el valor de una de las posiciones de una array conservando su posición
+```js
+    delete myarray[1]
+```
+
+# Objects
+- ```this``` apunta al objeto que lo contiene.
+- Las funciones constructoras deben emprezar con una mayuscula:
+    ```js
+        function Person(name, city){
+            this.name = name,
+            this.city = city
+        }
+
+    ```
+
+- Las variables globales dse gueardan en el objeto window, por lo que podemos tratar todas las variables globales como un objeto.   
+    ```js
+ var school = "skylab"
+ console.log(window.school) //skylab
+    ```
+ - Cuando utilizamos un constructor de objetos y no usamos ``` new ``` a la hora de crear el objeto, lo crea en el objeto ``` windows ```
+
