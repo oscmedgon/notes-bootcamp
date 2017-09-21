@@ -60,9 +60,19 @@
     ```
 
 - Las variables globales dse gueardan en el objeto window, por lo que podemos tratar todas las variables globales como un objeto.   
+ 
     ```js
+        js
  var school = "skylab"
  console.log(window.school) //skylab
+
     ```
  - Cuando utilizamos un constructor de objetos y no usamos ``` new ``` a la hora de crear el objeto, lo crea en el objeto ``` windows ```
 
+- forEach (item(Objeto a tratar) , index(devuelve la posición del objeto a tratar) , array(Devuelve el array completo))
+```js
+    Array(100).fill(0).map( function(item, index, array){
+        return Math.floor(Math.random()* array.length)
+        })
+```
+# Prototype MOLA!
