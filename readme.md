@@ -62,7 +62,6 @@
 - Las variables globales dse gueardan en el objeto window, por lo que podemos tratar todas las variables globales como un objeto.   
  
     ```js
-        js
  var school = "skylab"
  console.log(window.school) //skylab
 
