@@ -75,3 +75,44 @@
         })
 ```
 # Prototype MOLA!
+
+# Secuencias escapadas en strings
+Quotes are not the only characters that can be escaped inside a string. Here is a table of common escape sequences:
+```
+Code    Output
+\'  single quote
+\"  double quote
+\\  backslash
+\n  newline
+\r  carriage return
+\t  tab
+\b  backspace
+\f  form feed
+```
+
+# TDD
+
+
+# la instrucción debuger es dios
+
+#HTML5
+- Lenguaje de marcado
+- Estructura contenidos web
+- tag a enlaza documentos
+- www World Wide Web
+
+# CSS3
+## Selectores especiales CSS
+- section p : selecciona a todos los párrafos hijos de un serction.
+- section > p : Selecciona a todos los párrafos que sean hijos directos de un section.
+- h2 ~ p : Selecciona a todos los párrafos que sean hermanos de un H2.
+- h2 + p : Selecciona a todos los párrafos que hermanos de un h2 que a demás esté justo detras de el.
+- a[target] : selecciona a cualquier enlace que tenga aplicado un atributo target
+- a[href="google.es"] : selecciona todos los enlaces que su valor del href href google.es
+- a[href*="car/"] : selecciona todos los enlaces que vinculen a la carpeta car.
+- a[href^="https://"] :selecciona todos los enlaces que su referencia empieza por https
+- a[href$="pdf"] :Selecciona todos los enlaces, que su referencia termina en pdf
+- https://learn.shayhowe.com/advanced-html-css/complex-selectors/
+-  "*" Selector universal
+-  li:nth-child(2n) : selecciona los pares de una lista
+-  li:nth-child(2n+1) : selecciona los impares de una lista
