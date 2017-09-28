@@ -132,8 +132,19 @@ Code    Output
 
 ## inline-block lo parte
 # FlexBox es un dios de dioses
-# BOOTSTRAP
+# BOOTSTRAP(Es un dios con esteroides)
 - Librería de componentes(Elementos predefinidos).
 - Ahorra tiempo.
 - Responsive design.
 - Sistema de grid de 12 columnas
+## CLASES BOOTRSTRAP
+    - .container
+    - row (inicia el grid de columnas)
+    - col-(xx)- (0-12)(offset-0-12){offset sirve para dejar un hueco entre el anterior elemento con el actual}
+        - (xs , sm , md , lg) (resoluciones en las que actua)
+            - xs res < 768px (Movil)
+            - sm >=  768px (Tablet)
+            - md >= 992px (Escritorio)
+            - lg >= 1200px (ectritorio todo tocho)    
+        - .hidden-(xs , sm , md , lg)
+        - .visible-(xs , sm , md , lg)-*-(inline , block ...)
