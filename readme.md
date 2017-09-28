@@ -1,3 +1,5 @@
+# Markdown
+- [Guia de marcado](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
 # JavaScript notes
 ## Caracteres especiales de espaciado
 - salto de línea(\n)
@@ -112,7 +114,26 @@ Code    Output
 - a[href*="car/"] : selecciona todos los enlaces que vinculen a la carpeta car.
 - a[href^="https://"] :selecciona todos los enlaces que su referencia empieza por https
 - a[href$="pdf"] :Selecciona todos los enlaces, que su referencia termina en pdf
-- https://learn.shayhowe.com/advanced-html-css/complex-selectors/
+- [Enlace a una guia de selectores CSS](https://learn.shayhowe.com/advanced-html-css/complex-selectors/)
 -  "*" Selector universal
 -  li:nth-child(2n) : selecciona los pares de una lista
 -  li:nth-child(2n+1) : selecciona los impares de una lista
+-  * ES DIOS
+
+#elementos en bloque
+- toman el 100% del ancho disponible.
+- se colocan uno tras otro
+- permie setear su tamaño
+
+#elementos en línea
+- toman el ancho necesario por el contenido.
+- se colocan seguidos
+- no permie setear su tamaño
+
+## inline-block lo parte
+# FlexBox es un dios de dioses
+# BOOTSTRAP
+- Librería de componentes(Elementos predefinidos).
+- Ahorra tiempo.
+- Responsive design.
+- Sistema de grid de 12 columnas
