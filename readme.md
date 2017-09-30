@@ -148,3 +148,6 @@ Code    Output
             - lg >= 1200px (ectritorio todo tocho)    
         - .hidden-(xs , sm , md , lg)
         - .visible-(xs , sm , md , lg)-*-(inline , block ...)
+# SASS
+    - Nuevas funcionalidades (variables...)
+    - Trabajar con un preprocesador que convieta el código SASS a código CSS
